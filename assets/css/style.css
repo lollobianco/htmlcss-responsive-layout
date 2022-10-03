@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
 
 *{
    margin: 0;
@@ -15,6 +15,10 @@ header{
    padding: 10px 0;
    margin-bottom: 45px;
    color: white;
+}
+
+button{
+   font-family: 'Nunito', sans-serif;
 }
 
 .section-container{
@@ -97,8 +101,8 @@ header{
    border: none;
    border-radius: 30px;
    margin: 20px 0;
-   padding: 20px 0;
-   width: 60%;
+   padding: 15px 0;
+   width: 55%;
    background-color: #0084FD;
    color: white;
    font-size: 1.2rem;
@@ -113,6 +117,51 @@ header{
    font-size: 6rem;
    margin-bottom: 2rem;
 }
+
+
+/* SECTION 2 ------------------------------------------------------------------------- */
+
+
+.section-2{
+   background-color: #9792E4;
+   padding: 80px 0;
+   font-size: 1.3rem;
+   line-height: 2rem;
+}
+
+.section-2 img{
+   width: 100%;
+}
+
+.planning-1{
+   color: white;
+}
+
+.planning-2{
+   background-color: white;
+   border-radius: 30px;
+   text-align: center;
+   padding: 20px;
+   margin-top: 40px;
+}
+
+.planning-1 h3{
+   margin: 50px 0;
+   font-size: 2.3rem;
+}
+
+.planning-2 h3{
+   margin: 20px 0;
+}
+
+.arrow-down{
+   border: none;
+   background-color: #9792E4;
+   padding: 17px 20px 17px 20px;
+   margin-top: 20px;
+   border-radius: 100%;
+}
+
 
 @media (min-width: 768px){
    .first-card{
@@ -154,7 +203,7 @@ header{
 
    .first-card{
       display: flex;
-      position: relative;
+      padding: 30px 60px 0 20px;
    }
 
    .section-container{
