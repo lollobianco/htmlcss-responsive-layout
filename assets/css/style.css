@@ -27,8 +27,7 @@ button{
 
 .section-container{
    width: 85%;
-   margin: 0 auto;
-   
+   margin: 0 auto;  
 }
 
 .container-85{
@@ -173,6 +172,59 @@ button{
    border-radius: 100%;
 }
 
+
+/* SECTION 3 ========================================================================= */
+
+.testimonials{
+   width: 85%;
+   margin: 0 auto;  
+   font-size: 1.3rem;
+   line-height: 2rem;
+}
+
+.section-3{
+   padding: 50px 0;
+}
+
+.testimonials > h3{
+   margin-bottom: 30px;
+}
+
+.testimonials > h2{
+   color: #9792E4;
+   font-size: 2rem;
+   margin-bottom: 30px;
+}
+
+.testimonials > p{
+   margin-bottom: 30px;
+}
+
+.testimonial-card{
+   background-color: #9792E4;
+   color: white;
+   padding: 20px;
+   border-radius: 40px;
+   margin-bottom: 30px;
+}
+
+.testimonial-card .fa-quote-left, .fa-quote-right{
+   margin: 0 5px;
+   color: whitesmoke
+}
+
+.img-container{
+   padding: 0 0px;
+}
+
+.image{
+   width: 100%;
+   border-radius: 50%;
+}
+
+.testimonial-card h3{
+   margin-top: 20px;
+}
 
 /* MEDIA -------------------------------------------------------------------------- */
 
