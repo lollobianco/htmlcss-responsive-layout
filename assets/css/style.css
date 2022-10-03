@@ -21,6 +21,10 @@ button{
    font-family: 'Nunito', sans-serif;
 }
 
+
+/* UTILITY ------------------------------------------------------------------------------ */
+
+
 .section-container{
    width: 85%;
    margin: 0 auto;
@@ -61,6 +65,10 @@ button{
    flex-wrap: wrap;
 }
 
+
+/* NAV -------------------------------------------------------------------------------- */
+
+
 .fa-bars{
    color: white;
    font-size: 1.5rem;
@@ -75,6 +83,10 @@ button{
    padding: 7px 10px;
    border-radius: 20px;
 }
+
+
+/* SECTION 1 --------------------------------------------------------------------------- */
+
 
 .card{
    background-color: #B5DDFF;
@@ -140,14 +152,13 @@ button{
 .planning-2{
    background-color: white;
    border-radius: 30px;
-   text-align: center;
    padding: 20px;
    margin-top: 40px;
 }
 
 .planning-1 h3{
    margin: 50px 0;
-   font-size: 2.3rem;
+   font-size: 2rem;
 }
 
 .planning-2 h3{
@@ -161,6 +172,9 @@ button{
    margin-top: 20px;
    border-radius: 100%;
 }
+
+
+/* MEDIA -------------------------------------------------------------------------- */
 
 
 @media (min-width: 768px){
@@ -188,12 +202,20 @@ button{
    .card img{
       width: 50%;
    }
+
+   .planning-1 h3{
+      font-size: 2.6rem;
+      margin-top: 100px;
+      line-height: 3rem;
+   }
+
+
 }
 
 @media (min-width: 1024px){
 
    .container-85{
-      width: 80%;
+      width: 70%;
       margin: 0 auto;
    }
 
@@ -207,8 +229,11 @@ button{
    }
 
    .section-container{
-      width: 80%;
-      margin: 0 auto; 
+      width: 70%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between; 
+      position: relative;
    }
 
    .img{
@@ -229,6 +254,23 @@ button{
 
    .text{
       flex-basis: 60%;
+   }
+
+   .planning-1{
+      flex-basis: 50%;
+   }
+
+   .planning-2{
+      flex-basis: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      margin-top: 25%;
+   }
+
+   .planning-2 img{
+      width: 80%;
    }
 
    
