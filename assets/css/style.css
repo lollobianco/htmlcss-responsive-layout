@@ -180,6 +180,7 @@ button{
    margin: 0 auto;  
    font-size: 1.3rem;
    line-height: 2rem;
+   padding-bottom: 60px;
 }
 
 .section-3{
@@ -213,18 +214,26 @@ button{
    color: whitesmoke
 }
 
-.img-container{
-   padding: 0 0px;
-}
-
 .image{
-   width: 100%;
+   object-fit: cover;
+   width: 200px;
+   height: 200px;
    border-radius: 50%;
+   margin-bottom: 20px;
 }
 
 .testimonial-card h3{
-   margin-top: 20px;
+   margin-top: 30px;
 }
+
+
+
+/* SECTION 4 ========================================================================== */
+
+
+
+
+
 
 /* MEDIA -------------------------------------------------------------------------- */
 
@@ -261,7 +270,22 @@ button{
       line-height: 3rem;
    }
 
+   .testimonial-card{
+      padding: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
 
+   .testimonial-card .image{
+      margin: 0;
+   }
+
+   .testimonial-card .text{
+      text-align: left;
+      margin-left: 50px;
+      flex-grow: 1;
+   }
 }
 
 @media (min-width: 1024px){
